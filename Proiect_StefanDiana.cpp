@@ -1,8 +1,5 @@
 #include<iostream>
 #include<string>
-#include<fstream>
-#include <vector>
-using namespace std;
 using namespace std;
 
 
@@ -10,7 +7,7 @@ class Utilizator {  //clasa abstracta
 public:
 	string username;
 	string password;
-	char* numeUtilizator;  //adica numele din buletin
+	char* numeUtilizator;  // numele din buletin
 	const int idUtilizator;
 	static int contor;
 	
@@ -363,7 +360,7 @@ public:
 int ProfilUtilizator::contorCOD = 0;
 
 
-class ProfilCelebru :public ProfilUtilizator //mostenire iar, dar de data asta clasa profil utilizator
+class ProfilCelebru :public ProfilUtilizator //mostenire clasa profil utilizator
 {
 private:
 
@@ -531,18 +528,6 @@ public:
 	}
 
 
-	/*float numarUrmaritori;
-	int numarPostari;
-	int* numarLikes;
-	string AppSocialMedia;
-*/
-
-
-	//     +,-,*,/,-=,*= [], () (functie), !
-
-	
-
-
 	~ProfilCelebru() { //destructor
 		if (this->numarLikes != NULL)
 			delete[]this->numarLikes;
@@ -586,9 +571,6 @@ int main() {
 	cout << p2;
 	cin >> p3;
 	
-
-
-
 
 
 
