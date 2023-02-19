@@ -1,4 +1,4 @@
-Proiect POO c++
+Proiect POO 
 
 
 Realizati o aplicatie de tip consola in C++, care sa permita gestiunea profilelor utilizatorilor unei aplicatii.
